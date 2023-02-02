@@ -52,7 +52,7 @@ public class DaysInMonth {
                     case (12): System.out.println(31); break;
                     default: System.out.println("invalid date"); break;
                 }
-            }
+            } else if(year<0) System.out.println("invalid date"); break;
 
     }
 }
